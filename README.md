@@ -122,40 +122,21 @@ Diagnosed and resolved a real-world DNS resolution failure caused by a broken uB
 </details>
 
 <details>
-<summary><strong>🛰️ AeroGrid — Anomaly Detection Pipeline (IEUK 2026)</strong></summary>
+<summary><strong>🛰️ AeroGrid Turbine Anomaly Detector</strong></summary>
 <br/>
 
-A containerized anomaly detection system built during the Bright Network IEUK 2026 Technology & Engineering internship, paired with an AWS-based streaming data architecture.
+A Python-based diagnostic tool that reads sensor telemetry from a fleet of offshore wind turbines and automatically flags units requiring urgent maintenance, packaged with a Dockerfile for isolated, reproducible execution.
 
 | Category | Detail |
 |---|---|
-| **Stack** | Python, Docker, AWS |
-| **Scale** | End-to-end streaming pipeline, containerized service architecture |
-| **Performance** | Designed for real-time ingestion and anomaly flagging |
-| **Security** | Isolated container boundaries, scoped AWS IAM design |
-| **Impact** | Delivered as part of a competitive virtual internship program |
-| **Repository** | Available on request |
-
-This project formed the technical centerpiece of the IEUK 2026 program, demonstrating applied cloud architecture and anomaly detection under simulated production constraints.
-
-</details>
-
-<details>
-<summary><strong>🔔 IEUK Events Notification Bot</strong></summary>
-<br/>
-
-An automated Discord notification bot for Bright Network internship events, built with browser automation and deployed via CI/CD.
-
-| Category | Detail |
-|---|---|
-| **Stack** | Playwright, Node.js, Discord Webhooks, GitHub Actions |
-| **Scale** | Scheduled automation, zero-maintenance operation |
-| **Performance** | Scheduled polling with headless browser automation |
-| **Security** | Secrets managed via GitHub Actions encrypted store |
-| **Impact** | Automated event awareness for internship cohort participants |
+| **Stack** | Python, Pandas, Docker |
+| **Scale** | Fleet-wide telemetry analysis (10-turbine dataset) |
+| **Performance** | Flags overheating (>85°C) and excessive vibration (>15.0 mm/s) in a single pass |
+| **Security** | Fully containerized execution, no external network calls |
+| **Impact** | Correctly identified 2 of 10 turbines requiring urgent maintenance in test telemetry |
 | **Repository** | [Fussion5/IEUK-Engineering-Sector-Project](https://github.com/Fussion5/IEUK-Engineering-Sector-Project) |
 
-Built end-to-end with GitHub Actions as the scheduler, removing the need for always-on infrastructure while keeping the notification pipeline fully automated.
+Delivered as the technical centerpiece of the Bright Network IEUK 2026 Technology & Engineering internship, this project ships with both a native Python path and a Docker path, so it runs identically whether or not the reviewer has Python installed locally.
 
 </details>
 
@@ -224,6 +205,10 @@ Managed onboarding operations and fleet data integrity for a logistics operation
 
 <div align="center">
 
+**AWS**
+
+![AWS](https://img.shields.io/badge/AWS-Cloud%20Practitioner%20Track-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
+
 **Cisco**
 
 ![Cisco](https://img.shields.io/badge/Cisco-Ethical%20Hacker-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
@@ -254,7 +239,7 @@ Managed onboarding operations and fleet data integrity for a logistics operation
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=Fussion5&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=B794F4&icon_color=8B5CF6&text_color=C4B5FD" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Fussion5&theme=radical&hide_border=true&background=0D1117&stroke=8B5CF6&ring=B794F4&fire=B794F4&currStreakLabel=C4B5FD" width="48%"/>
+<img src="https://streak-stats.demolab.com/?user=Fussion5&theme=radical&hide_border=true&background=0D1117&stroke=8B5CF6&ring=B794F4&fire=B794F4&currStreakLabel=C4B5FD" width="48%"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fussion5&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=B794F4&text_color=C4B5FD" width="48%"/>
 
