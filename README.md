@@ -153,7 +153,7 @@ An automated Discord notification bot for Bright Network internship events, buil
 | **Performance** | Scheduled polling with headless browser automation |
 | **Security** | Secrets managed via GitHub Actions encrypted store |
 | **Impact** | Automated event awareness for internship cohort participants |
-| **Repository** | [Fussion5/IEUK-Events](https://github.com/Fussion5/IEUK-Events) |
+| **Repository** | [Fussion5/IEUK-Engineering-Sector-Project](https://github.com/Fussion5/IEUK-Engineering-Sector-Project) |
 
 Built end-to-end with GitHub Actions as the scheduler, removing the need for always-on infrastructure while keeping the notification pipeline fully automated.
 
