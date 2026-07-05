@@ -1,0 +1,23 @@
+name: Generate GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+  workflow_dispatch: {}
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate stats images
+        uses: jstrieb/github-stats@master
+        with:
+          username: Fussion5
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          exclude_repos:
+          exclude_langs: HTML,CSS
+          hide_border: true
+          line_height: 26
