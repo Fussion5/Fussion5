@@ -35,7 +35,7 @@ I recently completed the **Bright Network IEUK 2026 Technology & Engineering int
 
 I approach engineering with a **product mindset**: every system I build is judged on reliability, security, and the outcome it delivers — not just whether it runs.
 
-**🎯 Open To:** Software Engineering Internships · AI/ML Engineering Roles · Cloud & DevOps Opportunities · Open Source Collaboration · Research Assistantships
+**🎯 Open To:** AI/ML Engineering Roles · Cloud & DevOps Opportunities · Open Source Collaboration · Research Assistantships
 
 ---
 
