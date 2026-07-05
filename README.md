@@ -224,10 +224,6 @@ Managed onboarding operations and fleet data integrity for a logistics operation
 
 <div align="center">
 
-**AWS**
-
-![AWS](https://img.shields.io/badge/AWS-Cloud%20Practitioner%20Track-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
-
 **Cisco**
 
 ![Cisco](https://img.shields.io/badge/Cisco-Ethical%20Hacker-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
